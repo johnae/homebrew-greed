@@ -4,14 +4,14 @@ class Greed < Formula
   license "MPL-2.0"
 
   if OS.mac?
-    url "https://github.com/johnae/greed/releases/download/v0.4.0/greed-0.4.0-macos-universal.tar.gz"
-    sha256 "ead76a62fcead67e39c6889cbb3e67f772d1da80927cc937f5e813829565fb5a"
+    url "https://github.com/johnae/greed/releases/download/v0.4.1/greed-0.4.1-macos-universal.tar.gz"
+    sha256 "c7448be6c6c4b07d89237c38a59d98f2c1ab7557c4136f7669ab675dc429ae87"
   elsif Hardware::CPU.arm?
-    url "https://github.com/johnae/greed/releases/download/v0.4.0/greed-0.4.0-linux-aarch64.tar.gz"
-    sha256 "0a2c0e26b5a9d3dc8808b52999b1858949945f2e1d01349e91927fb101dcb853"
+    url "https://github.com/johnae/greed/releases/download/v0.4.1/greed-0.4.1-linux-aarch64.tar.gz"
+    sha256 "b3d9cae4114cc2c67254fcbe748962a73926be8b8fab6e3f511bac4b7c5efe42"
   else
-    url "https://github.com/johnae/greed/releases/download/v0.4.0/greed-0.4.0-linux-x86_64.tar.gz"
-    sha256 "55e4dd7c11e2763b9b8bb7d09c6116f6da7bb10afc180d30253bc405d1202f97"
+    url "https://github.com/johnae/greed/releases/download/v0.4.1/greed-0.4.1-linux-x86_64.tar.gz"
+    sha256 "19d521f83f804cdc02cf4a70d5aed5c401d442017769e22d5083dee01e659752"
   end
 
   def install
