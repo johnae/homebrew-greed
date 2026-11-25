@@ -1,8 +1,8 @@
 cask "greed-app" do
-  version "0.4.2"
-  sha256 "66ce2206fbba6c321879b912b1c84a420bbf573094b3ceb7df615de1ad3dd46a"
+  version "0.4.3"
+  sha256 "951f56cee10d389a22f310d68962b7c4cf2015518d46997da6e62fe6e52fe66b"
 
-  url "https://github.com/johnae/greed/releases/download/v0.4.2/greed-#{version}-macos.zip"
+  url "https://github.com/johnae/greed/releases/download/v0.4.3/greed-#{version}-macos.zip"
   name "Greed"
   desc "Fast, extensible modal editor with agents as first-class clients"
   homepage "https://github.com/johnae/greed"
